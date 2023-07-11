@@ -1,9 +1,10 @@
 {
   "dependencies": {
-    "@emotion/react": "latest",
-    "@emotion/styled": "latest",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/public-sans": "^5.0.5",
     "@mui/icons-material": "latest",
-    "@mui/joy": "latest",
+    "@mui/joy": "^5.0.0-alpha.87",
     "@mui/material": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
@@ -23,5 +24,17 @@
     "eject": "react-scripts eject"
   },
   "name": "lkhtp6",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
