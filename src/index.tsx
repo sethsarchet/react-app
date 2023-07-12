@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom/client';
 import { StyledEngineProvider } from '@mui/joy/styles';
 import App from './App';
 
-const root = document.querySelector("#root");
+const root = document.getElementById("root");
 
 if (root) {
   ReactDOM.createRoot(root).render(
